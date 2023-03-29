@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 200px;
+  height: 200px;
+  border: 3px dotted red;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  margin-top: 20px;
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border: 1px solid gray;
+  /* makes the content rounded shape */
+  border-radius: 50px;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  background-color: blue;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* practice starts */
+
+b {
+  border: 1px solid red;
+  display: block;
+}

@@ -1,0 +1,81 @@
+.picture {
+  width: 330px;
+  margin: 10px;
+}
+.area {
+  width: 350px;
+  border: 1px solid black;
+  font-size: small;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+.text-title {
+  font-size: 25px;
+  text-align: center;
+  color: red;
+}
+.details-p {
+  color: red;
+  margin: 10px;
+  font-size: 15px;
+}
+.ronaldo {
+  width: 350px;
+  margin: 10px;
+  border: 1px solid black;
+  color: blue;
+  border: 1%;
+}
+.messi {
+  margin: 10px;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+body {
+  margin-top: 10px;
+  padding: 10px;
+}
+.totall-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.header {
+  text-align: center;
+  height: auto;
+}
+.text-area {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+ul li {
+  list-style-type: none;
+}
+.all {
+  display: flex;
+  gap: 100px;
+  font-size: large;
+
+  margin: 1px;
+  background-color: black;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+.real {
+  margin: 1px;
+  padding: 1px;
+}
+.button {
+  color: white;
+  background-color: black;
+  text-align: left;
+  margin: 1%;
+  padding: 1%;
+  cursor: pointer;
+}

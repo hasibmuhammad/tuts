@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 3rem;
+}
+
+.line {
+  width: 30px;
+  cursor: pointer;
+}
+
+.youtube-logo {
+  pointer-events: none;
+  width: 100px;
+}
+
+.logo {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+header {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  width: 25px;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.search {
+  min-width: 400px;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-input {
+  width: 100%;
+  border-radius: 25px;
+  padding: 0.8rem;
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.search-input:focus-visible {
+  outline: none;
+}
+
+.submit-icon {
+  width: 25px;
+}
+
+.submit-button {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  width: 70px;
+  height: 45px;
+  outline: none;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10rem;
+}
+
+.left {
+  width: 10%;
+}
+.right {
+  width: 80%;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.title {
+  font-size: 18px;
+}
+.nav-icon {
+  font-size: 24px;
+}
+hr {
+  width: 150px;
+}
