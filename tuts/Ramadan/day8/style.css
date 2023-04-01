@@ -80,7 +80,7 @@ header {
   margin-top: 3rem;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   gap: 10rem;
 }
 
@@ -111,4 +111,38 @@ header {
 }
 hr {
   width: 150px;
+}
+
+.videos {
+  display: flex;
+  gap: 10px;
+  /* flex-wrap: wrap; */
+  flex-flow: wrap;
+}
+
+.thumbnail {
+  width: 350px;
+}
+
+.channel-logo {
+  width: 45px;
+}
+
+.information {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.channel-name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.video-title {
+  font-size: 18px;
 }
