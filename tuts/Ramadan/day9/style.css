@@ -1,0 +1,28 @@
+.input-field {
+  border-radius: 25px;
+  padding: 0.5rem;
+
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+
+  border-right: none;
+  outline: none;
+}
+
+.submit-button {
+  width: 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 25px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form {
+  display: flex;
+}
